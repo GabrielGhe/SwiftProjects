@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C01D3478195DFC330078FAAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D3477195DFC330078FAAE /* AppDelegate.swift */; };
+		C01D347A195DFC330078FAAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D3479195DFC330078FAAE /* ViewController.swift */; };
+		C01D347D195DFC330078FAAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01D347B195DFC330078FAAE /* Main.storyboard */; };
+		C01D347F195DFC330078FAAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01D347E195DFC330078FAAE /* Images.xcassets */; };
+		C01D348B195DFC330078FAAE /* App7PokerPlanningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D348A195DFC330078FAAE /* App7PokerPlanningTests.swift */; };
+		C01D3497195E034F0078FAAE /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D3496195E034F0078FAAE /* CardViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C01D3485195DFC330078FAAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C01D346A195DFC330078FAAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C01D3471195DFC330078FAAE;
+			remoteInfo = App7PokerPlanning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C01D3472195DFC330078FAAE /* App7PokerPlanning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App7PokerPlanning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01D3476195DFC330078FAAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C01D3477195DFC330078FAAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C01D3479195DFC330078FAAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C01D347C195DFC330078FAAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C01D347E195DFC330078FAAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C01D3484195DFC330078FAAE /* App7PokerPlanningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = App7PokerPlanningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01D3489195DFC330078FAAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C01D348A195DFC330078FAAE /* App7PokerPlanningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App7PokerPlanningTests.swift; sourceTree = "<group>"; };
+		C01D3496195E034F0078FAAE /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C01D346F195DFC330078FAAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01D3481195DFC330078FAAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C01D3469195DFC330078FAAE = {
+			isa = PBXGroup;
+			children = (
+				C01D3474195DFC330078FAAE /* App7PokerPlanning */,
+				C01D3487195DFC330078FAAE /* App7PokerPlanningTests */,
+				C01D3473195DFC330078FAAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C01D3473195DFC330078FAAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C01D3472195DFC330078FAAE /* App7PokerPlanning.app */,
+				C01D3484195DFC330078FAAE /* App7PokerPlanningTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C01D3474195DFC330078FAAE /* App7PokerPlanning */ = {
+			isa = PBXGroup;
+			children = (
+				C01D3477195DFC330078FAAE /* AppDelegate.swift */,
+				C01D3479195DFC330078FAAE /* ViewController.swift */,
+				C01D3496195E034F0078FAAE /* CardViewController.swift */,
+				C01D347B195DFC330078FAAE /* Main.storyboard */,
+				C01D347E195DFC330078FAAE /* Images.xcassets */,
+				C01D3475195DFC330078FAAE /* Supporting Files */,
+			);
+			path = App7PokerPlanning;
+			sourceTree = "<group>";
+		};
+		C01D3475195DFC330078FAAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C01D3476195DFC330078FAAE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C01D3487195DFC330078FAAE /* App7PokerPlanningTests */ = {
+			isa = PBXGroup;
+			children = (
+				C01D348A195DFC330078FAAE /* App7PokerPlanningTests.swift */,
+				C01D3488195DFC330078FAAE /* Supporting Files */,
+			);
+			path = App7PokerPlanningTests;
+			sourceTree = "<group>";
+		};
+		C01D3488195DFC330078FAAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C01D3489195DFC330078FAAE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C01D3471195DFC330078FAAE /* App7PokerPlanning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01D348E195DFC330078FAAE /* Build configuration list for PBXNativeTarget "App7PokerPlanning" */;
+			buildPhases = (
+				C01D346E195DFC330078FAAE /* Sources */,
+				C01D346F195DFC330078FAAE /* Frameworks */,
+				C01D3470195DFC330078FAAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = App7PokerPlanning;
+			productName = App7PokerPlanning;
+			productReference = C01D3472195DFC330078FAAE /* App7PokerPlanning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C01D3483195DFC330078FAAE /* App7PokerPlanningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01D3491195DFC330078FAAE /* Build configuration list for PBXNativeTarget "App7PokerPlanningTests" */;
+			buildPhases = (
+				C01D3480195DFC330078FAAE /* Sources */,
+				C01D3481195DFC330078FAAE /* Frameworks */,
+				C01D3482195DFC330078FAAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C01D3486195DFC330078FAAE /* PBXTargetDependency */,
+			);
+			name = App7PokerPlanningTests;
+			productName = App7PokerPlanningTests;
+			productReference = C01D3484195DFC330078FAAE /* App7PokerPlanningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C01D346A195DFC330078FAAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Gabriel;
+				TargetAttributes = {
+					C01D3471195DFC330078FAAE = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					C01D3483195DFC330078FAAE = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = C01D3471195DFC330078FAAE;
+					};
+				};
+			};
+			buildConfigurationList = C01D346D195DFC330078FAAE /* Build configuration list for PBXProject "App7PokerPlanning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C01D3469195DFC330078FAAE;
+			productRefGroup = C01D3473195DFC330078FAAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C01D3471195DFC330078FAAE /* App7PokerPlanning */,
+				C01D3483195DFC330078FAAE /* App7PokerPlanningTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C01D3470195DFC330078FAAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01D347D195DFC330078FAAE /* Main.storyboard in Resources */,
+				C01D347F195DFC330078FAAE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01D3482195DFC330078FAAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C01D346E195DFC330078FAAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01D347A195DFC330078FAAE /* ViewController.swift in Sources */,
+				C01D3478195DFC330078FAAE /* AppDelegate.swift in Sources */,
+				C01D3497195E034F0078FAAE /* CardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01D3480195DFC330078FAAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01D348B195DFC330078FAAE /* App7PokerPlanningTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C01D3486195DFC330078FAAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C01D3471195DFC330078FAAE /* App7PokerPlanning */;
+			targetProxy = C01D3485195DFC330078FAAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C01D347B195DFC330078FAAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01D347C195DFC330078FAAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01D348C195DFC330078FAAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C01D348D195DFC330078FAAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01D348F195DFC330078FAAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = App7PokerPlanning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C01D3490195DFC330078FAAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = App7PokerPlanning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C01D3492195DFC330078FAAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/App7PokerPlanning.app/App7PokerPlanning";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = App7PokerPlanningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		C01D3493195DFC330078FAAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/App7PokerPlanning.app/App7PokerPlanning";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = App7PokerPlanningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01D346D195DFC330078FAAE /* Build configuration list for PBXProject "App7PokerPlanning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01D348C195DFC330078FAAE /* Debug */,
+				C01D348D195DFC330078FAAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01D348E195DFC330078FAAE /* Build configuration list for PBXNativeTarget "App7PokerPlanning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01D348F195DFC330078FAAE /* Debug */,
+				C01D3490195DFC330078FAAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C01D3491195DFC330078FAAE /* Build configuration list for PBXNativeTarget "App7PokerPlanningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01D3492195DFC330078FAAE /* Debug */,
+				C01D3493195DFC330078FAAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C01D346A195DFC330078FAAE /* Project object */;
+}
