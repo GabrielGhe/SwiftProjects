@@ -9,7 +9,25 @@
 import UIKit
 import QuartzCore
 
+let TipInCellAnimatorStartTransform:CATransform3D = {
+    // Variables
+    let rotationDegrees: CGFloat = -15.0
+    let rotationRadians: CGFloat = rotationDegrees * (CGFloat(M_PI)/180.0)
+    let offset = CGPointMake(-20, -20)
+    var startTransform = CATransform3DIdentity
+    
+    // Rotate Identity 15 degrees counter clockwise
+    startTransform = CATransform3DRotate(CATransform3DIdentity,
+        rotationRadians, 0.0, 0.0, 1.0)
+    
+    // Translate the card a bit
+    startTransform = CATransform3DTranslate(startTransform, offset.x, offset.y, 0.0)
+    
+    return startTransform
+}()
+
 class TipInCellAnimator {
+    
     class func animate(cell: UITableViewCell) {
         let view = cell.contentView
         view.layer.opacity = 0.1
@@ -19,27 +37,13 @@ class TipInCellAnimator {
     }
     
     class func animateByRotating(cell: UITableViewCell) {
-        // Variables
         let view = cell.contentView
-        let rotationDegrees: CGFloat = -15.0
-        let rotationRadians: CGFloat = rotationDegrees * (CGFloat(M_PI)/180.0)
-        let offset = CGPointMake(-20, -20)
         
-        // Initial Transform
-        var startTransform = CATransform3DIdentity
-        
-        // Apply -15 degree rotation on (x,y,z) = (0,0,1)
-        startTransform = CATransform3DRotate(CATransform3DIdentity,
-            rotationRadians, 0.0, 0.0, 1.0)
-        
-        // Shift the card up
-        startTransform = CATransform3DTranslate(startTransform, offset.x, offset.y, 0.0)
-        
-        // Apply transform to view
-        view.layer.transform = startTransform
+        // Initial state
+        view.layer.transform = TipInCellAnimatorStartTransform
         view.layer.opacity = 0.8
         
-        // Animate the view back to its initial state
+        // Animate back to normal
         UIView.animateWithDuration(0.4) {
             view.layer.transform = CATransform3DIdentity
             view.layer.opacity = 1
