@@ -55,6 +55,6 @@ class MainViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
-        TipInCellAnimator.animate(cell)
+        TipInCellAnimator.animateByRotating(cell)
     }
 }
