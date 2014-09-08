@@ -10,7 +10,7 @@ import UIKit
 
 class DrawView: UIView {
     
-    var lines:Line[] = []
+    var lines:[Line] = []
     var lastPoint: CGPoint!
     
     init(coder aDecoder: NSCoder!) {

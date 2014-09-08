@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
                             
-    @IBOutlet var drawView : AnyObject
+    @IBOutlet var drawView : AnyObject?
     
     override func viewDidLoad() {
         super.viewDidLoad()
