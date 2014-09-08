@@ -1,4 +1,7 @@
-
+<p>
+  This project is my attempt at going though the 
+  <a href="http://www.raywenderlich.com/76024/swift-table-view-animations-tutorial-drop-cards">RayWenderlich UITableView animations tutorial</a>
+</p>
 
 <ol>
   <li>
