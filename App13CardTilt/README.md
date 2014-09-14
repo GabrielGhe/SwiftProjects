@@ -29,3 +29,45 @@
     </a>
   </li>
 </ol>
+
+<h4>
+  What are some of the things you can animate? Here's a list taken from <a href="https://developer.apple.com/library/ios/documentation/windowsviews/conceptual/viewpg_iphoneos/AnimatingViews/AnimatingViews.html#//apple_ref/doc/uid/TP40009503-CH6-SW2">Apple</a>
+</h4>
+
+<ul id="menu">
+  <li>
+    <b><a href="#frame">frame</a></b>:
+    Change the view’s size and position relative to its superview’s coordinate system.
+  </li>
+  
+  <li>
+    <b><a href="#bounds">bounds</a></b>:
+    Change the view’s size.
+  </li>
+  
+  <li>
+    <b><a href="#center">center</a></b>:
+    Change the view’s position.
+  </li>
+  
+  <li>
+    <b><a href="#transform">transform</a></b>:
+    Modify this property to scale, rotate, or translate the view relative to its center point in 2D space
+  </li>
+  
+  <li>
+    <b><a href="#alpha">alpha</a></b>:
+    Change the transparency of the view.
+  </li>
+  
+  <li>
+    <b><a href="#backgroundColor">backgroundColor</a></b>:
+    Change the view’s background color.
+  </li>
+  
+  <li>
+    <b><a href="#contentStretch">contentStretch</a></b>:
+    Change the way the view’s contents are stretched to fill the available space.
+  </li>
+</ul>
+
