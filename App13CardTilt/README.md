@@ -36,11 +36,11 @@
 
 <br />
 
-<h4>
+<h4 id="tableOfContent">
   What are some of the things you can animate? Here's a list taken from <a href="https://developer.apple.com/library/ios/documentation/windowsviews/conceptual/viewpg_iphoneos/AnimatingViews/AnimatingViews.html#//apple_ref/doc/uid/TP40009503-CH6-SW2">Apple</a>
 </h4>
 
-<ul id="tableOfContent">
+<ul>
   <li>
     <b><a href="#frame">frame</a></b>
   </li>
