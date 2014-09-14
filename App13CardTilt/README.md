@@ -72,7 +72,7 @@ What are some of the things you can animate? Here's a list taken from <a href="h
 </ul>
 
 <!-- FRAME -->
-<h4 id="#frame">[frame](#table-of-content)<h4>
+<h4 id="#frame"><a href="#guide">frame</a><h4>
 <p>
 Change the view’s size and position relative to its superview’s coordinate system.
 It is the view's container.
@@ -83,7 +83,7 @@ It is the view's container.
 
 
 <!-- BOUNDS -->
-<h4 id="#bounds"><a href="#table-of-content">bounds</a><h4>
+<h4 id="#bounds"><a href="#guide">bounds</a><h4>
 <p>
 Change the view’s size. This is where the view is allowed to draw.
 </p>
@@ -92,7 +92,7 @@ Change the view’s size. This is where the view is allowed to draw.
 ```
 
 <!-- CENTER -->
-<h4 id="#center"><a href="#table-of-content">center</a><h4>
+<h4 id="#center"><a href="#guide">center</a><h4>
 <p>
 Change the view’s position. This is mostly used for animating.
 </p>
@@ -101,7 +101,7 @@ Change the view’s position. This is mostly used for animating.
 
 
 <!-- TRANSFORM -->
-<h4 id="#transform"><a href="#table-of-content">transform</a><h4>
+<h4 id="#transform"><a href="#guide">transform</a><h4>
 <p>
 Modify this property to scale, rotate, or translate the view relative to its center point in 2D space.
 </p>
@@ -109,7 +109,7 @@ Modify this property to scale, rotate, or translate the view relative to its cen
 ```
 
 <!-- ALPHA -->
-<h4 id="#alpha"><a href="#table-of-content">alpha</a><h4>
+<h4 id="#alpha"><a href="#guide">alpha</a><h4>
 <p>
 Change the transparency of the view.
 </p>
@@ -117,7 +117,7 @@ Change the transparency of the view.
 ```
 
 <!-- BACKGROUND COLOR -->
-<h4 id="#backgroundColor"><a href="#table-of-content">backgroundColor</a><h4>
+<h4 id="#backgroundColor"><a href="#guide">backgroundColor</a><h4>
 <p>
 Change the view’s background color.
 </p>
@@ -125,7 +125,7 @@ Change the view’s background color.
 ```
 
 <!-- CONTENT STRETCH -->
-<h4 id="#contentStretch"><a href="#table-of-content">contentStretch</a><h4>
+<h4 id="#contentStretch"><a href="#guide">contentStretch</a><h4>
 <p>
 Change the way the view’s contents are stretched to fill the available space.
 </p>
