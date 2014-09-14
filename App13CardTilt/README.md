@@ -40,7 +40,7 @@
   What are some of the things you can animate? Here's a list taken from <a href="https://developer.apple.com/library/ios/documentation/windowsviews/conceptual/viewpg_iphoneos/AnimatingViews/AnimatingViews.html#//apple_ref/doc/uid/TP40009503-CH6-SW2">Apple</a>
 </h4>
 
-<ul id="menu">
+<ul id="tableOfContent">
   <li>
     <b><a href="#frame">frame</a></b>
   </li>
@@ -71,7 +71,7 @@
 </ul>
 
 <!-- FRAME -->
-<h4 id="#frame">frame<h4>
+<h4 id="#frame"><a href="#table-of-content">frame</a><h4>
 <p>
 Change the view’s size and position relative to its superview’s coordinate system.
 It is the view's container.
@@ -82,7 +82,7 @@ It is the view's container.
 
 
 <!-- BOUNDS -->
-<h4 id="#bounds"><a href="#menu">bounds</a><h4>
+<h4 id="#bounds"><a href="#table-of-content">bounds</a><h4>
 <p>
 Change the view’s size. This is where the view is allowed to draw.
 </p>
@@ -91,7 +91,7 @@ Change the view’s size. This is where the view is allowed to draw.
 ```
 
 <!-- CENTER -->
-<h4 id="#center"><a href="#menu">center</a><h4>
+<h4 id="#center"><a href="#table-of-content">center</a><h4>
 <p>
 Change the view’s position. This is mostly used for animating.
 </p>
@@ -100,7 +100,7 @@ Change the view’s position. This is mostly used for animating.
 
 
 <!-- TRANSFORM -->
-<h4 id="#transform"><a href="#menu">transform</a><h4>
+<h4 id="#transform"><a href="#table-of-content">transform</a><h4>
 <p>
 Modify this property to scale, rotate, or translate the view relative to its center point in 2D space.
 </p>
@@ -108,7 +108,7 @@ Modify this property to scale, rotate, or translate the view relative to its cen
 ```
 
 <!-- ALPHA -->
-<h4 id="#alpha"><a href="#menu">alpha</a><h4>
+<h4 id="#alpha"><a href="#table-of-content">alpha</a><h4>
 <p>
 Change the transparency of the view.
 </p>
@@ -116,7 +116,7 @@ Change the transparency of the view.
 ```
 
 <!-- BACKGROUND COLOR -->
-<h4 id="#backgroundColor"><a href="#menu">backgroundColor</a><h4>
+<h4 id="#backgroundColor"><a href="#table-of-content">backgroundColor</a><h4>
 <p>
 Change the view’s background color.
 </p>
@@ -124,7 +124,7 @@ Change the view’s background color.
 ```
 
 <!-- CONTENT STRETCH -->
-<h4 id="#contentStretch"><a href="#menu">contentStretch</a><h4>
+<h4 id="#contentStretch"><a href="#table-of-content">contentStretch</a><h4>
 <p>
 Change the way the view’s contents are stretched to fill the available space.
 </p>
