@@ -36,9 +36,10 @@
 
 <br />
 
-<h4 id="tableOfContent">
-  What are some of the things you can animate? Here's a list taken from <a href="https://developer.apple.com/library/ios/documentation/windowsviews/conceptual/viewpg_iphoneos/AnimatingViews/AnimatingViews.html#//apple_ref/doc/uid/TP40009503-CH6-SW2">Apple</a>
-</h4>
+<h3 name="tableOfContent">Guide</h3>
+<p>
+What are some of the things you can animate? Here's a list taken from <a href="https://developer.apple.com/library/ios/documentation/windowsviews/conceptual/viewpg_iphoneos/AnimatingViews/AnimatingViews.html#//apple_ref/doc/uid/TP40009503-CH6-SW2">Apple</a>
+</p>
 
 <ul>
   <li>
@@ -71,7 +72,7 @@
 </ul>
 
 <!-- FRAME -->
-<h4 id="#frame"><a href="#table-of-content">frame</a><h4>
+<h4 id="#frame">[frame](#table-of-content)<h4>
 <p>
 Change the view’s size and position relative to its superview’s coordinate system.
 It is the view's container.
