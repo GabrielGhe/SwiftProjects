@@ -82,7 +82,7 @@ It is the view's container.
 
 
 <!-- BOUNDS -->
-<h4 id="#bounds">bounds<h4>
+<h4 id="#bounds"><a href="#menu">bounds</a><h4>
 <p>
 Change the view’s size. This is where the view is allowed to draw.
 </p>
@@ -91,7 +91,7 @@ Change the view’s size. This is where the view is allowed to draw.
 ```
 
 <!-- CENTER -->
-<h4 id="#center">center<h4>
+<h4 id="#center"><a href="#menu">center</a><h4>
 <p>
 Change the view’s position. This is mostly used for animating.
 </p>
@@ -100,7 +100,7 @@ Change the view’s position. This is mostly used for animating.
 
 
 <!-- TRANSFORM -->
-<h4 id="#transform">transform<h4>
+<h4 id="#transform"><a href="#menu">transform</a><h4>
 <p>
 Modify this property to scale, rotate, or translate the view relative to its center point in 2D space.
 </p>
@@ -108,7 +108,7 @@ Modify this property to scale, rotate, or translate the view relative to its cen
 ```
 
 <!-- ALPHA -->
-<h4 id="#alpha">alpha<h4>
+<h4 id="#alpha"><a href="#menu">alpha</a><h4>
 <p>
 Change the transparency of the view.
 </p>
@@ -116,7 +116,7 @@ Change the transparency of the view.
 ```
 
 <!-- BACKGROUND COLOR -->
-<h4 id="#backgroundColor">backgroundColor<h4>
+<h4 id="#backgroundColor"><a href="#menu">backgroundColor</a><h4>
 <p>
 Change the view’s background color.
 </p>
@@ -124,7 +124,7 @@ Change the view’s background color.
 ```
 
 <!-- CONTENT STRETCH -->
-<h4 id="#contentStretch">contentStretch<h4>
+<h4 id="#contentStretch"><a href="#menu">contentStretch</a><h4>
 <p>
 Change the way the view’s contents are stretched to fill the available space.
 </p>
