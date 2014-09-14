@@ -63,7 +63,7 @@ What are some of the things you can animate? Here's a list taken from <a href="h
   </li>
   
   <li>
-    <b><a href="#backgroundColor">backgroundColor</a></b>
+    <b><a href="#bg">backgroundColor</a></b>
   </li>
 </ul>
 
@@ -154,7 +154,7 @@ UIView.animateWithDuration(1, animations: {
 ```
 
 <!-- BACKGROUND COLOR -->
-<h4 id="#backgroundColor"><a href="#guide">backgroundColor</a><h4>
+<h4 id="#bg"><a href="#guide">backgroundColor</a><h4>
 <p>
 Change the view’s background color.
 </p>
