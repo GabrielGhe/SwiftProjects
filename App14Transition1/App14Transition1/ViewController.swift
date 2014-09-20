@@ -36,5 +36,13 @@ class ViewController: UIViewController {
         self.container.addSubview(self.redSquare)
     }
     
+    @IBAction func performAction(sender: AnyObject) {
+        var views = (frontView: self.redSquare, backView: self.blueSquare)
+        if self.redSquare.superview ==  nil {
+            views = (frontView: self.blueSquare, backView: self.redSquare)
+        }
+        let transitionOptions = UIViewAnimationOptions.TransitionCurlUp
+        UIView.transitionFromView(views.frontView, toView: views.backView, duration: 1.0, options: transitionOptions, completion: nil)
+    }
 }
 
