@@ -51,7 +51,7 @@ UIView.transitionWithView(self.container, duration: 1.0, options: transitionOpti
 ```
 
 <p>
-It works but now we only have blue...
+It works but now we only have blue... lets fix that
 </p>
 ```swift
 var views = (frontView: self.redSquare, backView: self.blueSquare)
@@ -65,5 +65,17 @@ UIView.transitionWithView(self.container, duration: 1.0, options: transitionOpti
   }, completion: { finished in
     // do things when it's done
 })
+```
+
+<p>
+Now for a easier method that only does a transition
+</p>
+```swift
+var views = (frontView: self.redSquare, backView: self.blueSquare)
+if self.redSquare.superview ==  nil {
+  views = (frontView: self.blueSquare, backView: self.redSquare)
+}
+let transitionOptions = UIViewAnimationOptions.TransitionCurlUp
+UIView.transitionFromView(views.frontView, toView: views.backView, duration: 1.0, options: transitionOptions, completion: nil)
 ```
 
